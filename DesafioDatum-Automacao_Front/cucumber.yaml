@@ -1,0 +1,8 @@
+---
+default: -p chrome -p pretty
+
+pretty: --format pretty
+
+chrome:  BROWSER=chrome
+firefox: BROWSER=firefox
+headless: BROWSER=headless
